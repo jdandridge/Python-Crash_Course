@@ -8,7 +8,6 @@
     "html.format.wrapLineLength": 110,
     "prettier.singleQuote": false,
     "prettier.trailingComma": "none",
-    "prettier.disableLanguages": ["html"],
     "files.exclude": {
       "**/*.pyc": true,
       "/env": true
