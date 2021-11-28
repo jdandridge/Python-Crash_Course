@@ -36,6 +36,10 @@ def list_03():
 
 
 # list_03()
+# ============================================================================================================
+'''Changing, Adding, and Removing Elements'''
+# ============================================================================================================
+
 
 def list_04():
     '''Modifying Elements in a List'''
@@ -47,7 +51,7 @@ def list_04():
 # list_04()
 
 def list_05():
-    '''Adding Elements to a list:Appending Elements to the End of a list'''
+    '''Adding Elements to a list: Appending Elements to the End of a list'''
     motorcycles = ['honda', 'yamaha', 'suzuki']
     motorcycles.append('ducati')
     print(motorcycles)
@@ -57,7 +61,7 @@ def list_05():
 
 
 def list_06():
-    '''Adding Elements to a list:Inserting Elements into a List'''
+    '''Adding Elements to a list: Inserting Elements into a List'''
     motorcycles = ['honda', 'yamaha', 'suzuki']
     motorcycles.insert(0, 'ducati')
     print(motorcycles)
@@ -66,7 +70,7 @@ def list_06():
 # list_06()
 
 def list_07():
-    '''Removing Elements from a List:Removing an Item using the 'del' statement'''
+    '''Removing Elements from a List: Removing an Item using the 'del' statement'''
     motorcycles = ['honda', 'yamaha', 'suzuki']
     del motorcycles[0]
     print(motorcycles)
@@ -76,7 +80,7 @@ def list_07():
 
 
 def list_08():
-    '''Removing Elements from a List:Removing an Item using the 'pop()' Method'''
+    '''Removing Elements from a List: Removing an Item using the 'pop()' Method'''
     motorcycles = ['honda', 'yamaha', 'suzuki']
     popped_motorcycle = motorcycles.pop()
     print(motorcycles)
@@ -87,7 +91,7 @@ def list_08():
 
 
 def list_09():
-    '''Removing Elements from a List:Removing an Item using the 'pop()' Method'''
+    '''Removing Elements from a List: Removing an Item using the 'pop()' Method'''
     motorcycles = ['honda', 'yamaha', 'suzuki']
     last_owned = motorcycles.pop()
     print(f"The last motorcycle I owned was a {last_owned.title()}.")
@@ -97,7 +101,7 @@ def list_09():
 
 
 def list_10():
-    '''Removing Elements from a List:Removing an Item using the 'pop()' Method'''
+    '''Removing Elements from a List: Removing an Item using the 'pop()' Method'''
     motorcycles = ['honda', 'yamaha', 'suzuki']
     first_owned = motorcycles.pop(0)
     print(f"The first motorcyle i owned was a {first_owned.title()}.")
@@ -107,7 +111,7 @@ def list_10():
 
 
 def list_11():
-    '''Removing Elements from a List:Removing an item by value'''
+    '''Removing Elements from a List: Removing an item by value'''
     motorcycles = ['honda', 'yamaha', 'suzuki']
     motorcycles.remove('honda')
     print(motorcycles)
@@ -117,7 +121,7 @@ def list_11():
 
 
 def list_12():
-    '''Removing Elements from a List:Removing an item by value'''
+    '''Removing Elements from a List: Removing an item by value'''
     motorcycles = ['honda', 'yamaha', 'suzuki']
     too_expensive = 'yamaha'
     motorcycles.remove(too_expensive)
